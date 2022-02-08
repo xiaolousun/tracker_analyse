@@ -7,9 +7,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='siamfc tracking')
     parser.add_argument('--video_path',
                         # default='D:/无人机跟踪项目/capture_video/DJI_video/track_video',
-                        # default='C:/Users/孙小楼/Desktop/研究生系列比赛/视频素材/camera_uav/跟踪车辆/',
+                        # default='C:/Users/Desktop/研究生系列比赛/视频素材/camera_uav/跟踪车辆/',
                         # default='./processing_results/picture2video_results',
-                        default='C:/Users/孙小楼/Desktop/研究生系列比赛/视频素材/第二次户外飞行/',
+                        default='C:/Users/Desktop/研究生系列比赛/视频素材/第二次户外飞行/',
                         type=str, help='eval one special video')
     parser.add_argument('--save_folder',
                         default='./processing_results/',
