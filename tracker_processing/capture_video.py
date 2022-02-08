@@ -6,7 +6,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 def capture_video(video_path:str, save_folder:str, frame_frequency:int=1):
     # video_path = './DJI_video/track_video'  # 这里处理一个文件夹中的视频
-    ttf_path = 'C:/Users/孙小楼/Documents/times.ttf'
+    ttf_path = 'C:/Users/Documents/times.ttf'
     for vid in os.listdir(video_path):
         video_name = video_path + '/' + vid
         save_folder_real = save_folder + '/' + 'capture_video_results'  + '/' + vid[:-4]  # 检个图片放在同名文件夹内
